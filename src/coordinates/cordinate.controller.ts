@@ -3,7 +3,7 @@ import { CoordinatesService } from './cordinate.service';
 import { IpValidationPipe } from 'src/pipes/ip-validation.pipe';
 import { LocationInfo } from './interfaces/location-info.interface';
 
-@Controller('cordinate')
+@Controller('coordinate')
 export class CoordinatesController {
   constructor (private readonly  cordinateService: CoordinatesService) {}
 
